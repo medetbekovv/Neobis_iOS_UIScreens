@@ -37,6 +37,9 @@
 		CEDD4B252A137524002351EE /* SinglesCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B242A137524002351EE /* SinglesCollectionViewHeader.swift */; };
 		CEDD4B272A137539002351EE /* SinglesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B262A137539002351EE /* SinglesCollectionViewCell.swift */; };
 		CEDD4B292A13754C002351EE /* SinglesTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B282A13754B002351EE /* SinglesTabBarController.swift */; };
+		CEDD4B2C2A1375CC002351EE /* TravelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B2B2A1375CC002351EE /* TravelHeader.swift */; };
+		CEDD4B2F2A1375F7002351EE /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B2E2A1375F7002351EE /* TravelCollectionViewController.swift */; };
+		CEDD4B312A137609002351EE /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B302A137609002351EE /* TravelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +77,9 @@
 		CEDD4B242A137524002351EE /* SinglesCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesCollectionViewHeader.swift; sourceTree = "<group>"; };
 		CEDD4B262A137539002351EE /* SinglesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEDD4B282A13754B002351EE /* SinglesTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglesTabBarController.swift; sourceTree = "<group>"; };
+		CEDD4B2B2A1375CC002351EE /* TravelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHeader.swift; sourceTree = "<group>"; };
+		CEDD4B2E2A1375F7002351EE /* TravelCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewController.swift; sourceTree = "<group>"; };
+		CEDD4B302A137609002351EE /* TravelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 		CEDD4ADE2A137067002351EE /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD4B2A2A1375B6002351EE /* Travel */,
 				CEDD4B212A1374D3002351EE /* Singles */,
 				CEDD4B182A13741E002351EE /* Finance */,
 				CEDD4B0E2A137333002351EE /* Crypto */,
@@ -214,6 +221,16 @@
 				CEDD4B282A13754B002351EE /* SinglesTabBarController.swift */,
 			);
 			path = Singles;
+			sourceTree = "<group>";
+		};
+		CEDD4B2A2A1375B6002351EE /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4B2B2A1375CC002351EE /* TravelHeader.swift */,
+				CEDD4B2E2A1375F7002351EE /* TravelCollectionViewController.swift */,
+				CEDD4B302A137609002351EE /* TravelCell.swift */,
+			);
+			path = Travel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,14 +350,17 @@
 			files = (
 				CEDD4B1A2A137443002351EE /* FinanceViewController.swift in Sources */,
 				CEDD4AE42A137067002351EE /* ViewController.swift in Sources */,
+				CEDD4B312A137609002351EE /* TravelCell.swift in Sources */,
 				CEDD4AFC2A137198002351EE /* WeatherViewController.swift in Sources */,
 				CEDD4B1C2A137456002351EE /* FinanceView.swift in Sources */,
+				CEDD4B2F2A1375F7002351EE /* TravelCollectionViewController.swift in Sources */,
 				CEDD4B0B2A1372ED002351EE /* Finance.swift in Sources */,
 				CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */,
 				CEDD4B072A1372A3002351EE /* Weather.swift in Sources */,
 				CEDD4AF72A137139002351EE /* Shadow.swift in Sources */,
 				CEDD4B162A1373B3002351EE /* CryptoTabBarController.swift in Sources */,
 				CEDD4B272A137539002351EE /* SinglesCollectionViewCell.swift in Sources */,
+				CEDD4B2C2A1375CC002351EE /* TravelHeader.swift in Sources */,
 				CEDD4AE02A137067002351EE /* AppDelegate.swift in Sources */,
 				CEDD4B292A13754C002351EE /* SinglesTabBarController.swift in Sources */,
 				CEDD4AFE2A137208002351EE /* WeatherBottomCell.swift in Sources */,
