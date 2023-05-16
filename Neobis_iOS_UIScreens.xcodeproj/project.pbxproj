@@ -16,6 +16,12 @@
 		CEDD4AEC2A137068002351EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD4AEA2A137068002351EE /* LaunchScreen.storyboard */; };
 		CEDD4AF72A137139002351EE /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AF62A137139002351EE /* Shadow.swift */; };
 		CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */; };
+		CEDD4AFC2A137198002351EE /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AFB2A137198002351EE /* WeatherViewController.swift */; };
+		CEDD4AFE2A137208002351EE /* WeatherBottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AFD2A137208002351EE /* WeatherBottomCell.swift */; };
+		CEDD4B002A13722A002351EE /* WeatherBottomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AFF2A13722A002351EE /* WeatherBottomCollectionViewController.swift */; };
+		CEDD4B022A13723F002351EE /* WeatherMiddleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B012A13723F002351EE /* WeatherMiddleCell.swift */; };
+		CEDD4B052A137265002351EE /* WeatherWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B042A137265002351EE /* WeatherWeekViewController.swift */; };
+		CEDD4B072A1372A3002351EE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B062A1372A3002351EE /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		CEDD4AED2A137068002351EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDD4AF62A137139002351EE /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxiableLayout.swift; sourceTree = "<group>"; };
+		CEDD4AFB2A137198002351EE /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		CEDD4AFD2A137208002351EE /* WeatherBottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBottomCell.swift; sourceTree = "<group>"; };
+		CEDD4AFF2A13722A002351EE /* WeatherBottomCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherBottomCollectionViewController.swift; sourceTree = "<group>"; };
+		CEDD4B012A13723F002351EE /* WeatherMiddleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMiddleCell.swift; sourceTree = "<group>"; };
+		CEDD4B042A137265002351EE /* WeatherWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWeekViewController.swift; sourceTree = "<group>"; };
+		CEDD4B062A1372A3002351EE /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,8 @@
 		CEDD4ADE2A137067002351EE /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD4B032A137251002351EE /* Model */,
+				CEDD4AFA2A137166002351EE /* Weather */,
 				CEDD4AF52A137127002351EE /* Helper */,
 				CEDD4AF32A1370A0002351EE /* Delagate */,
 				CEDD4AE32A137067002351EE /* ViewController.swift */,
@@ -111,6 +125,26 @@
 				CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		CEDD4AFA2A137166002351EE /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4AFB2A137198002351EE /* WeatherViewController.swift */,
+				CEDD4AFD2A137208002351EE /* WeatherBottomCell.swift */,
+				CEDD4AFF2A13722A002351EE /* WeatherBottomCollectionViewController.swift */,
+				CEDD4B012A13723F002351EE /* WeatherMiddleCell.swift */,
+				CEDD4B042A137265002351EE /* WeatherWeekViewController.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		CEDD4B032A137251002351EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4B062A1372A3002351EE /* Weather.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +263,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDD4AE42A137067002351EE /* ViewController.swift in Sources */,
+				CEDD4AFC2A137198002351EE /* WeatherViewController.swift in Sources */,
 				CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */,
+				CEDD4B072A1372A3002351EE /* Weather.swift in Sources */,
 				CEDD4AF72A137139002351EE /* Shadow.swift in Sources */,
 				CEDD4AE02A137067002351EE /* AppDelegate.swift in Sources */,
+				CEDD4AFE2A137208002351EE /* WeatherBottomCell.swift in Sources */,
+				CEDD4B002A13722A002351EE /* WeatherBottomCollectionViewController.swift in Sources */,
+				CEDD4B052A137265002351EE /* WeatherWeekViewController.swift in Sources */,
+				CEDD4B022A13723F002351EE /* WeatherMiddleCell.swift in Sources */,
 				CEDD4AE22A137067002351EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
