@@ -22,6 +22,13 @@
 		CEDD4B022A13723F002351EE /* WeatherMiddleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B012A13723F002351EE /* WeatherMiddleCell.swift */; };
 		CEDD4B052A137265002351EE /* WeatherWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B042A137265002351EE /* WeatherWeekViewController.swift */; };
 		CEDD4B072A1372A3002351EE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B062A1372A3002351EE /* Weather.swift */; };
+		CEDD4B092A1372DE002351EE /* Serials.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B082A1372DE002351EE /* Serials.swift */; };
+		CEDD4B0B2A1372ED002351EE /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B0A2A1372ED002351EE /* Finance.swift */; };
+		CEDD4B0D2A137307002351EE /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B0C2A137307002351EE /* Crypto.swift */; };
+		CEDD4B102A137360002351EE /* CryptoMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B0F2A137360002351EE /* CryptoMainView.swift */; };
+		CEDD4B122A13738A002351EE /* CryptoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B112A13738A002351EE /* CryptoCell.swift */; };
+		CEDD4B142A1373A1002351EE /* CryptoMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B132A1373A1002351EE /* CryptoMainViewController.swift */; };
+		CEDD4B162A1373B3002351EE /* CryptoTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B152A1373B3002351EE /* CryptoTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +51,13 @@
 		CEDD4B012A13723F002351EE /* WeatherMiddleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMiddleCell.swift; sourceTree = "<group>"; };
 		CEDD4B042A137265002351EE /* WeatherWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWeekViewController.swift; sourceTree = "<group>"; };
 		CEDD4B062A1372A3002351EE /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		CEDD4B082A1372DE002351EE /* Serials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serials.swift; sourceTree = "<group>"; };
+		CEDD4B0A2A1372ED002351EE /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		CEDD4B0C2A137307002351EE /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		CEDD4B0F2A137360002351EE /* CryptoMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMainView.swift; sourceTree = "<group>"; };
+		CEDD4B112A13738A002351EE /* CryptoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCell.swift; sourceTree = "<group>"; };
+		CEDD4B132A1373A1002351EE /* CryptoMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoMainViewController.swift; sourceTree = "<group>"; };
+		CEDD4B152A1373B3002351EE /* CryptoTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +110,10 @@
 		CEDD4ADE2A137067002351EE /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
-				CEDD4B032A137251002351EE /* Model */,
+				CEDD4B0E2A137333002351EE /* Crypto */,
 				CEDD4AFA2A137166002351EE /* Weather */,
 				CEDD4AF52A137127002351EE /* Helper */,
+				CEDD4B032A137251002351EE /* Model */,
 				CEDD4AF32A1370A0002351EE /* Delagate */,
 				CEDD4AE32A137067002351EE /* ViewController.swift */,
 				CEDD4AE52A137067002351EE /* Main.storyboard */,
@@ -143,8 +158,22 @@
 			isa = PBXGroup;
 			children = (
 				CEDD4B062A1372A3002351EE /* Weather.swift */,
+				CEDD4B082A1372DE002351EE /* Serials.swift */,
+				CEDD4B0A2A1372ED002351EE /* Finance.swift */,
+				CEDD4B0C2A137307002351EE /* Crypto.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CEDD4B0E2A137333002351EE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4B0F2A137360002351EE /* CryptoMainView.swift */,
+				CEDD4B112A13738A002351EE /* CryptoCell.swift */,
+				CEDD4B132A1373A1002351EE /* CryptoMainViewController.swift */,
+				CEDD4B152A1373B3002351EE /* CryptoTabBarController.swift */,
+			);
+			path = Crypto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,15 +293,22 @@
 			files = (
 				CEDD4AE42A137067002351EE /* ViewController.swift in Sources */,
 				CEDD4AFC2A137198002351EE /* WeatherViewController.swift in Sources */,
+				CEDD4B0B2A1372ED002351EE /* Finance.swift in Sources */,
 				CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */,
 				CEDD4B072A1372A3002351EE /* Weather.swift in Sources */,
 				CEDD4AF72A137139002351EE /* Shadow.swift in Sources */,
+				CEDD4B162A1373B3002351EE /* CryptoTabBarController.swift in Sources */,
 				CEDD4AE02A137067002351EE /* AppDelegate.swift in Sources */,
 				CEDD4AFE2A137208002351EE /* WeatherBottomCell.swift in Sources */,
 				CEDD4B002A13722A002351EE /* WeatherBottomCollectionViewController.swift in Sources */,
 				CEDD4B052A137265002351EE /* WeatherWeekViewController.swift in Sources */,
+				CEDD4B142A1373A1002351EE /* CryptoMainViewController.swift in Sources */,
+				CEDD4B102A137360002351EE /* CryptoMainView.swift in Sources */,
 				CEDD4B022A13723F002351EE /* WeatherMiddleCell.swift in Sources */,
+				CEDD4B122A13738A002351EE /* CryptoCell.swift in Sources */,
 				CEDD4AE22A137067002351EE /* SceneDelegate.swift in Sources */,
+				CEDD4B0D2A137307002351EE /* Crypto.swift in Sources */,
+				CEDD4B092A1372DE002351EE /* Serials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
