@@ -14,6 +14,8 @@
 		CEDD4AE72A137067002351EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD4AE52A137067002351EE /* Main.storyboard */; };
 		CEDD4AE92A137068002351EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDD4AE82A137068002351EE /* Assets.xcassets */; };
 		CEDD4AEC2A137068002351EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDD4AEA2A137068002351EE /* LaunchScreen.storyboard */; };
+		CEDD4AF72A137139002351EE /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AF62A137139002351EE /* Shadow.swift */; };
+		CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		CEDD4AE82A137068002351EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDD4AEB2A137068002351EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDD4AED2A137068002351EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD4AF62A137139002351EE /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlaxiableLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		CEDD4ADE2A137067002351EE /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD4AF52A137127002351EE /* Helper */,
 				CEDD4AF32A1370A0002351EE /* Delagate */,
 				CEDD4AE32A137067002351EE /* ViewController.swift */,
 				CEDD4AE52A137067002351EE /* Main.storyboard */,
@@ -97,6 +102,15 @@
 				CEDD4ADF2A137067002351EE /* AppDelegate.swift */,
 			);
 			path = Delagate;
+			sourceTree = "<group>";
+		};
+		CEDD4AF52A137127002351EE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4AF62A137139002351EE /* Shadow.swift */,
+				CEDD4AF82A13714B002351EE /* FlaxiableLayout.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDD4AE42A137067002351EE /* ViewController.swift in Sources */,
+				CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */,
+				CEDD4AF72A137139002351EE /* Shadow.swift in Sources */,
 				CEDD4AE02A137067002351EE /* AppDelegate.swift in Sources */,
 				CEDD4AE22A137067002351EE /* SceneDelegate.swift in Sources */,
 			);
