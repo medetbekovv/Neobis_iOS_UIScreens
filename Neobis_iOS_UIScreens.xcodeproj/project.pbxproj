@@ -40,6 +40,8 @@
 		CEDD4B2C2A1375CC002351EE /* TravelHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B2B2A1375CC002351EE /* TravelHeader.swift */; };
 		CEDD4B2F2A1375F7002351EE /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B2E2A1375F7002351EE /* TravelCollectionViewController.swift */; };
 		CEDD4B312A137609002351EE /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B302A137609002351EE /* TravelCell.swift */; };
+		CEDD4B342A137645002351EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B332A137645002351EE /* MainViewController.swift */; };
+		CEDD4B362A13765B002351EE /* MainViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD4B352A13765B002351EE /* MainViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		CEDD4B2B2A1375CC002351EE /* TravelHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHeader.swift; sourceTree = "<group>"; };
 		CEDD4B2E2A1375F7002351EE /* TravelCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewController.swift; sourceTree = "<group>"; };
 		CEDD4B302A137609002351EE /* TravelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
+		CEDD4B332A137645002351EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEDD4B352A13765B002351EE /* MainViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		CEDD4ADE2A137067002351EE /* Neobis_iOS_UIScreens */ = {
 			isa = PBXGroup;
 			children = (
+				CEDD4B322A13763A002351EE /* MainView */,
 				CEDD4B2A2A1375B6002351EE /* Travel */,
 				CEDD4B212A1374D3002351EE /* Singles */,
 				CEDD4B182A13741E002351EE /* Finance */,
@@ -231,6 +236,15 @@
 				CEDD4B302A137609002351EE /* TravelCell.swift */,
 			);
 			path = Travel;
+			sourceTree = "<group>";
+		};
+		CEDD4B322A13763A002351EE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				CEDD4B332A137645002351EE /* MainViewController.swift */,
+				CEDD4B352A13765B002351EE /* MainViewCell.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +364,7 @@
 			files = (
 				CEDD4B1A2A137443002351EE /* FinanceViewController.swift in Sources */,
 				CEDD4AE42A137067002351EE /* ViewController.swift in Sources */,
+				CEDD4B362A13765B002351EE /* MainViewCell.swift in Sources */,
 				CEDD4B312A137609002351EE /* TravelCell.swift in Sources */,
 				CEDD4AFC2A137198002351EE /* WeatherViewController.swift in Sources */,
 				CEDD4B1C2A137456002351EE /* FinanceView.swift in Sources */,
@@ -357,6 +372,7 @@
 				CEDD4B0B2A1372ED002351EE /* Finance.swift in Sources */,
 				CEDD4AF92A13714B002351EE /* FlaxiableLayout.swift in Sources */,
 				CEDD4B072A1372A3002351EE /* Weather.swift in Sources */,
+				CEDD4B342A137645002351EE /* MainViewController.swift in Sources */,
 				CEDD4AF72A137139002351EE /* Shadow.swift in Sources */,
 				CEDD4B162A1373B3002351EE /* CryptoTabBarController.swift in Sources */,
 				CEDD4B272A137539002351EE /* SinglesCollectionViewCell.swift in Sources */,
